@@ -6,6 +6,8 @@ This extension adds new nodes for model loading that allow you to specify the GP
 
 Note that this does not add parallelism. The workflow steps are still executed sequentially just on different GPUs. Any potential speedup comes from not having to constantly load and unload models from VRAM.
 
+## [Open Google Colab] (https://colab.research.google.com/github/sanek1989/ComfyUI-MultiGPU/blob/main/ComfyUI_%D0%92%D1%81%D0%B5_%D0%B2_%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC_%D0%BC%D0%B5%D1%81%D1%82%D0%B5.ipynb)
+
 ## Installation
 
 Clone this repository inside `ComfyUI/custom_nodes/`.
